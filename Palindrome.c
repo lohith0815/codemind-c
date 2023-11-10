@@ -8,14 +8,14 @@ int main()
     {
         r=n%10;
         rev=rev*10+r;
-        n=n/10;
+        n/=10;
     }
     if(rev==t)
     {
-        printf("Palindrome");
+        printf("True");
     }
     else
     {
-        printf("Not Palindrome");
+        printf("False");
     }
 }
