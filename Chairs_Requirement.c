@@ -1,8 +1,15 @@
 #include<stdio.h>
 int main()
 {
-    int x,y,a;
-    scanf("%d %d",&x,&y);
-    a=x-y;
-    printf("%d",a);
+    int a,b;
+    scanf("%d%d",&a,&b);
+    if(a>=b)
+    {
+        printf("%d",a-b);
+    }
+    else
+    {
+        printf("0");
+    }
+    
 }
