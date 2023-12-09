@@ -1,9 +1,14 @@
 #include<stdio.h>
 int main()
 {
-    int x,y,a;
-    scanf("%d %d",&x,&y);
-    a=y-x;
-    printf("%d",a);
-    
+    int a,b;
+    scanf("%d%d",&a,&b);
+    if(b-a)
+    {
+        printf("%d",b-a);
+    }
+    else
+    {
+        printf("%d",a-b);
+    }
 }
