@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    int x;
-    scanf("%d",&x);
-    if(x>=40)
+    int a;
+    scanf("%d",&a);
+    if(a>40)
     {
         printf("YES");
     }
